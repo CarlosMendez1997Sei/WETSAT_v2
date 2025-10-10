@@ -37,8 +37,8 @@ CREATE EXTENSION address_standardizer_data_us;
 CREATE EXTENSION fuzzystrmatch;
 CREATE EXTENSION postgis;
 CREATE EXTENSION postgis_raster;
-CREATE EXTENSION h3_postgis;
 CREATE EXTENSION h3;
+CREATE EXTENSION h3_postgis;
 CREATE EXTENSION mobilitydb;
 CREATE EXTENSION ogr_fdw;
 CREATE EXTENSION pgrouting;
@@ -62,7 +62,7 @@ CREATE TABLE wetsat_everglades.evapotranspiration(fecha date, stationname varcha
 COPY wetsat_everglades.evapotranspiration FROM 'C:\WETSAT\everglades\evergladesEtData.csv' WITH (FORMAT CSV, DELIMITER ',', HEADER);
 
 --- Alter table owner
-ALTER TABLE IF EXISTS wetsat_everglades.evapotranspiration OWNER to postgres;
+ALTER TABLE IF EXISTS wetsat_everglades.evapotranspiration OWNER to admin_wetsat;
 
 --- Create a simple query to visualize evapotranspiration
 SELECT * FROM wetsat_everglades.evapotranspiration
@@ -76,7 +76,7 @@ CREATE TABLE wetsat_everglades.rainfall(fecha date, stationname varchar, et deci
 COPY wetsat_everglades.rainfall FROM 'C:\WETSAT\everglades\evergladesRainfallData.csv' WITH (FORMAT CSV, DELIMITER ',', HEADER);
 
 --- Alter table owner
-ALTER TABLE IF EXISTS wetsat_everglades.rainfall OWNER to postgres;
+ALTER TABLE IF EXISTS wetsat_everglades.rainfall OWNER to admin_wetsat;
 
 --- Create a simple query to visualize rainfall
 SELECT * FROM wetsat_everglades.rainfall
@@ -90,7 +90,7 @@ CREATE TABLE wetsat_everglades.water_level(fecha date, stationname varchar, et d
 COPY wetsat_everglades.water_level FROM 'C:\WETSAT\everglades\evergladesWaterLevelData.csv' WITH (FORMAT CSV, DELIMITER ',', HEADER);
 
 --- Alter table owner
-ALTER TABLE IF EXISTS wetsat_everglades.water_level OWNER to postgres;
+ALTER TABLE IF EXISTS wetsat_everglades.water_level OWNER to admin_wetsat;
 
 --- Create a simple query to visualize water levels
 SELECT * FROM wetsat_everglades.water_level
