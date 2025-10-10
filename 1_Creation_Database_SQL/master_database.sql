@@ -116,15 +116,13 @@ Second, run the script and replace the path folder and .shp files, folowing the 
 open Commander or Powershell in your local machine
 
 Point Stations
-.\shp2pgsql -s 4326 -I C:\WETSAT\points_stations\Points_stations_example.shp point_stations.points_stations > C:\Users\CarlosMéndez\Documents\GitHub\WETSAT_v2\Version2.0\point_stations.sql
+.\shp2pgsql -s 4326 -I C:\WETSAT\points_stations\Points_stations_example.shp point_stations.points_stations > C:\Users\CarlosMéndez\Documents\GitHub\WETSAT_v2\1_Creation_Database_SQL\point_stations.sql
 
 Shape everglades
-.\shp2pgsql -s 4326 -I C:\WETSAT\shape_everglades\EDEN_v3_subzones_OK.shp shape_everglades.everglades_shape > C:\Users\CarlosMéndez\Documents\GitHub\WETSAT_v2\Version2.0\everglades_shape.sql
-
+.\shp2pgsql -s 4326 -I C:\WETSAT\shape_everglades\EDEN_v3_subzones_OK.shp shape_everglades.everglades_shape > C:\Users\CarlosMéndez\Documents\GitHub\WETSAT_v2\1_Creation_Database_SQL\everglades_shape.sql
 */
 
 --- Create a simple query to visualize point_stations
-
 SELECT * FROM point_stations.points_stations
 ORDER BY gid ASC 
 
