@@ -29,7 +29,7 @@ WetSAT-ML Version 2.0
 </table>
 </div>
 
-# 🛰️ WetSAT-ML v2.0 Steps and Phases
+# 🛰️ WetSAT-ML v2.0 Documentation
 
 ## General Summary
 
