@@ -29,7 +29,7 @@ WetSAT-ML Version 2.0
 </table>
 </div>
 
-# 🛰️ WetSAT-ML v2.0 User Manual
+# 🛰️ WetSAT-ML v2.0 Documentation
 
 ## General Summary
 
@@ -62,7 +62,7 @@ The tool WETSAT_v2 allow users to:
   
 <p class="caption"> WetSAT-ML methodology workflow for generating wetland flooding extent and trends using Sentinel-1 data and machine learning.</p>
 
-<img src="https://github.com/sei-latam/WETSAT_v2/blob/a32a41369cbfbe45c018c473519d4423a083e461/WetSAT%20Design.png" alt="Figure 1. WetSAT-ML methodology workflow for generating wetland flooding extent and trends using Sentinel-1 data and machine learning." width="100%"/>
+<img src="https://github.com/sei-latam/WETSAT_v2/blob/52374d17a5923e485f6691f53288488d09e5833a/WetSAT_Design.png" alt="Figure 1. WetSAT-ML methodology workflow for generating wetland flooding extent and trends using Sentinel-1 data and machine learning." width="100%"/>
 
 </div>
 
@@ -205,7 +205,7 @@ param_grid = {
 - Confusion matrix
 - Classification report
 
-## 10.0 Forecasting Wetlands and Maps 🧪 (you can to forecasting actual or news AOI's)
+## 10.0 Classification Wetlands and Maps 🧪 (you can to classify actual or news AOI's)
 
 - Import the pickle files previously created (model, encoders and labels)
 - Add news images (VV, VH and PR), if you don't have PR index, you can to recalculate the PR index following the equation (PR = VH - VV)
@@ -215,7 +215,7 @@ param_grid = {
 ## 11.0 and 12.0 Transform predicted values (categorical and numerical) to legend and export images
 
 - Use encoder label to transform values (optional) 📌
-- Export to raster (.tif) images in AOI selected, for example -----> Forecasting_labels_XX.tif
+- Export to raster (.tif) images in AOI selected, for example -----> Classification_labels_XX.tif
 - Open the raster images predicted in Open Source GIS, for example QGIS
 
 </h4>
