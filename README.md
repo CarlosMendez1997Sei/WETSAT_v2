@@ -205,7 +205,7 @@ param_grid = {
 - Confusion matrix
 - Classification report
 
-## 10.0 Forecasting Wetlands and Maps 🧪 (you can to forecasting actual or news AOI's)
+## 10.0 Classification Wetlands and Maps 🧪 (you can to classify actual or news AOI's)
 
 - Import the pickle files previously created (model, encoders and labels)
 - Add news images (VV, VH and PR), if you don't have PR index, you can to recalculate the PR index following the equation (PR = VH - VV)
@@ -215,7 +215,7 @@ param_grid = {
 ## 11.0 and 12.0 Transform predicted values (categorical and numerical) to legend and export images
 
 - Use encoder label to transform values (optional) 📌
-- Export to raster (.tif) images in AOI selected, for example -----> Forecasting_labels_XX.tif
+- Export to raster (.tif) images in AOI selected, for example -----> Classification_labels_XX.tif
 - Open the raster images predicted in Open Source GIS, for example QGIS
 
 </h4>
