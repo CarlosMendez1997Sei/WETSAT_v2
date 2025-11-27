@@ -234,10 +234,6 @@ Version `2.0`
 https://github.com/sei-latam/WETSAT_v2
 ```
 
-## Credits and repository of data
-
-The original code, repositories and scripts used in this project, are available at:
-
 ## Citations and References
 
 For WetSAT-ML citations and references, please use the following structure:
