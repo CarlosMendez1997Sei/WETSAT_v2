@@ -238,9 +238,11 @@ https://github.com/sei-latam/WETSAT_v2
 
 The original code, repositories and scripts used in this project, are available at:
 
-## Contributing
+## Citations and References
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate. 
+For WetSAT-ML citations and references, please use the following structure:
+
+Palomino-Ángel, S., Mendez, C., Zamora, D., Santos, T., Prasad, S., and Piman, T. (2025)
 
 ## License
 
