@@ -1,6 +1,6 @@
 <h1 align="center">
 
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=500&color=F1F4F7&center=true&vCenter=true&multiline=true&width=550&height=80&lines=Welcome+to+WetSAT-ML;By+Stockholm+Environment+Institute+(SEI))](https://git.io/typing-svg) 
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=500&color=1D8CF7FF&center=true&vCenter=true&multiline=true&width=550&height=80&lines=Welcome+to+WetSAT-ML;By+Stockholm+Environment+Institute+(SEI))](https://git.io/typing-svg) 
 </h1>
 
 <div align="center">
