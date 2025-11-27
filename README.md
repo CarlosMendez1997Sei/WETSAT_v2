@@ -42,7 +42,7 @@ and  Scikit Learn <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/
 
 <h2 align="left">
   
-Master Script Code from Google Colab </a> <a href="https://colab.research.google.com/github/CarlosMendez1997Sei/WETSAT_v2/blob/main/2_Modelling_WETSAT_Google_Colab/Wetsat_Geoprocessing.ipynb" target="_blank" rel="noreferrer"> 
+Master Script Code from Google Colab </a> <a href="https://colab.research.google.com/github/CarlosMendez1997Sei/WETSAT_v2/blob/main/2_Modelling_WETSAT_Google_Colab/Master_WETSAT.ipynb" target="_blank" rel="noreferrer"> 
 <img width="20" height="20" alt="image" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-colab-icon.png" />
 </h2>
   
