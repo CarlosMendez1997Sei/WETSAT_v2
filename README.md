@@ -51,7 +51,7 @@ https://colab.research.google.com/github/CarlosMendez1997Sei/WETSAT_v2/blob/main
 ```
 
 
-The tool WETSAT_v2 allow users to:
+The tool WetSAT-ML allow users to:
 
 - Generate wetland flooding extent maps.
 - Produce water permanence maps.
