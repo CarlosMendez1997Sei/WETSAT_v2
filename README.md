@@ -238,7 +238,7 @@ https://github.com/sei-latam/WETSAT_v2
 
 For WetSAT-ML citations and references, please use the following structure:
 
-Palomino-Ángel, S., Mendez, C., Zamora, D., Santos, T., Prasad, S., and Piman, T. (2025)
+Palomino-Ángel, S., Méndez, C., Zamora, D., Santos, T., Prasad, S., and Piman, T. (2025). WetSAT-ML: Wetlands flooding extent and trends using SATellite data and Machine Learning (Version 1.0) [Data System]. Stockholm Environment Institute (SEI). https://github.com/sei-latam/WETSAT_v2.
 
 ## License
 
