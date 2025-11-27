@@ -14,12 +14,12 @@
 <td align="center" style="vertical-align: middle; padding-left: 18px; padding-right: 18px; text-align: center;">
 <!-- Título en Markdown dentro del HTML -->
 <h1 style="margin-bottom: 6px; text-align: center;">
-WetSAT-ML Version 2.0
+WetSAT-ML Version 1.0
 </h1>
 <!-- Frase original abajo --> <span style="font-size: 18px;">
 <strong>W</strong>etlands flooding <strong>e</strong>xtent and
 <strong>t</strong>rends using <strong>SAT</strong>ellite data and
-<strong>M</strong>achine <strong>L</strong>earning Version 2.0</span>
+<strong>M</strong>achine <strong>L</strong>earning Version 1.0</span>
 </td>
 <!-- Imagen derecha -->
 <td>
@@ -34,7 +34,7 @@ WetSAT-ML Version 2.0
 ## General Summary
 
 <h4 align="justify">
-WetSAT-ML (Wetlands flooding extent and trends using SATellite data and Machine Learning) version 2.0, It consists of an open-source algorithm integrated with platforms such as: 
+WetSAT-ML (Wetlands flooding extent and trends using SATellite data and Machine Learning) version 1.0, It consists of an open-source algorithm integrated with platforms such as: 
 Google Earth Engine, <img src="https://images.icon-icons.com/1508/PNG/512/googleearth-engine_104576.png" alt="HTML" width="20" height="20"/>
 Google Colab, <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-colab-icon.png" alt="HTML" width="20" height="20" />
 and  Scikit Learn <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="HTML" width="20" height="20" />
@@ -222,13 +222,13 @@ param_grid = {
 
 ## Versions and releases
 
-Version `1.0`
+Version in `R`
 
 ```HTML
 https://github.com/sei-latam/WETSAT
 ```
 
-Version `2.0`
+Version `1.0`
 
 ```HTML
 https://github.com/sei-latam/WETSAT_v2
