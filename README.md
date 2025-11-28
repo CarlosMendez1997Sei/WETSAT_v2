@@ -1,6 +1,6 @@
 <h1 align="center">
 
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=500&color=F1F4F7&center=true&vCenter=true&multiline=true&width=550&height=80&lines=Welcome+to+WetSAT-ML;By+Stockholm+Environment+Institute+(SEI))](https://git.io/typing-svg) 
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=500&color=1D8CF7FF&center=true&vCenter=true&multiline=true&width=550&height=80&lines=Welcome+to+WetSAT-ML;By+Stockholm+Environment+Institute+(SEI))](https://git.io/typing-svg) 
 </h1>
 
 <div align="center">
@@ -14,12 +14,12 @@
 <td align="center" style="vertical-align: middle; padding-left: 18px; padding-right: 18px; text-align: center;">
 <!-- Título en Markdown dentro del HTML -->
 <h1 style="margin-bottom: 6px; text-align: center;">
-WetSAT-ML Version 2.0
+WetSAT-ML Version 1.0
 </h1>
 <!-- Frase original abajo --> <span style="font-size: 18px;">
 <strong>W</strong>etlands flooding <strong>e</strong>xtent and
 <strong>t</strong>rends using <strong>SAT</strong>ellite data and
-<strong>M</strong>achine <strong>L</strong>earning Version 2.0</span>
+<strong>M</strong>achine <strong>L</strong>earning Version 1.0</span>
 </td>
 <!-- Imagen derecha -->
 <td>
@@ -29,12 +29,12 @@ WetSAT-ML Version 2.0
 </table>
 </div>
 
-# 🛰️ WetSAT-ML v2.0 Documentation
+# 🛰️ WetSAT-ML Version 1.0 Documentation
 
 ## General Summary
 
 <h4 align="justify">
-WetSAT-ML (Wetlands flooding extent and trends using SATellite data and Machine Learning) version 2.0, It consists of an open-source algorithm integrated with platforms such as: 
+WetSAT-ML (Wetlands flooding extent and trends using SATellite data and Machine Learning) version 1.0, It consists of an open-source algorithm integrated with platforms such as: 
 Google Earth Engine, <img src="https://images.icon-icons.com/1508/PNG/512/googleearth-engine_104576.png" alt="HTML" width="20" height="20"/>
 Google Colab, <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-colab-icon.png" alt="HTML" width="20" height="20" />
 and  Scikit Learn <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="HTML" width="20" height="20" />
@@ -51,7 +51,7 @@ https://colab.research.google.com/github/CarlosMendez1997Sei/WETSAT_v2/blob/main
 ```
 
 
-The tool WETSAT_v2 allow users to:
+The tool WetSAT-ML allow users to:
 
 - Generate wetland flooding extent maps.
 - Produce water permanence maps.
@@ -62,7 +62,7 @@ The tool WETSAT_v2 allow users to:
   
 <p class="caption"> WetSAT-ML methodology workflow for generating wetland flooding extent and trends using Sentinel-1 data and machine learning.</p>
 
-<img src="https://github.com/sei-latam/WETSAT_v2/blob/52374d17a5923e485f6691f53288488d09e5833a/WetSAT_Design.png" alt="Figure 1. WetSAT-ML methodology workflow for generating wetland flooding extent and trends using Sentinel-1 data and machine learning." width="100%"/>
+<img src="https://github.com/sei-latam/WETSAT_v2/blob/e2141f047f6dea84e1ebf49830351327cb775434/WetSAT_Design_Official.png" alt="Figure 1. WetSAT-ML methodology workflow for generating wetland flooding extent and trends using Sentinel-1 data and machine learning." width="100%"/>
 
 </div>
 
@@ -222,54 +222,31 @@ param_grid = {
 
 ## Versions and releases
 
-Version `1.0`
+Version in `R`
 
 ```HTML
 https://github.com/sei-latam/WETSAT
 ```
 
-Version `2.0`
+Version `1.0`
 
 ```HTML
 https://github.com/sei-latam/WETSAT_v2
 ```
 
-## Credits and repository of data
+## Citations and References
 
-The original code, repositories and scripts used in this project, are available at:
+For WetSAT-ML citations and references, please use the following structure:
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate. 
+Palomino-Ángel, S., Méndez, C., Zamora, D., Santos, T., Prasad, S., and Piman, T. (2025). WetSAT-ML: Wetlands flooding extent and trends using SATellite data and Machine Learning (Version 1.0) [Data System]. Stockholm Environment Institute (SEI). 
+https://github.com/sei-latam/WETSAT_v2.
 
 ## License
 
-BSD 3-Clause License
+GNU AFFERO GENERAL PUBLIC LICENSE
+Version 3, 19 November 2007
 
-Copyright (c) 2025, Stockholm Environment Institute - Latin America
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-1. Redistributions of source code must retain the above copyright notice, this
-   list of conditions and the following disclaimer.
-
-2. Redistributions in binary form must reproduce the above copyright notice,
-   this list of conditions and the following disclaimer in the documentation
-   and/or other materials provided with the distribution.
-
-3. Neither the name of the copyright holder nor the names of its
-   contributors may be used to endorse or promote products derived from
-   this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
 
